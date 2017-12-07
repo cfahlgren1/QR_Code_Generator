@@ -15,11 +15,11 @@ root.title("QR Code Generator")
 root.geometry("600x600")
 
 #Create Text area
-TextArea = Text(width=60, height = 20, pady=0)
+TextArea = Text(width=60, pady=0)
 TextArea.insert(END, "Type url here.")
 
 #Create Title Label
-titleLabel = Label(text="QR Code", font=("Helvetica", 12))
+titleLabel = Label(text="QR Code", font=("Helvetica", 16))
 
 #Take a parameter and generate the QR Code
 def generateQR(url):
