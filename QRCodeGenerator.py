@@ -3,12 +3,13 @@
 # Date   12/7/2017
 # QR Code Generator GUI
 ###############################
-import pyqrcode,png
+import png
+from pyqrcode import *
 from tkinter import *
 from tkinter import filedialog
 from tkinter.filedialog import asksaveasfilename
 import tkinter.messagebox
-from pyqrcode import *
+
 
 #Build the form
 root = Tk()
